@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260">
+<style>
+.wave{transform-box:fill-box;transform-origin:10% 90%;animation:wave 1.6s ease-in-out infinite}
+.blink{transform-box:fill-box;transform-origin:center;animation:blink 4s infinite}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 2.4s ease-in-out infinite}
+.hr{animation:hr 5s ease-in infinite}
+@keyframes wave{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(16deg)}}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+@keyframes tw{50%{transform:scale(1.5);opacity:.5}}
+@keyframes hr{0%{transform:translateY(0);opacity:0}25%{opacity:.9}100%{transform:translateY(-70px);opacity:0}}
+</style>
+<circle cx="110" cy="130" r="104" fill="#fde3ea"/>
+<g fill="#f2708f"><path class="hr" d="M30 120c-8-6-12-14-6-18 4-3 8 0 6 3 2-3 6-5 9-2 5 5-1 12-9 17z"/><path class="hr" style="animation-delay:-2.5s" d="M190 110c-8-6-12-14-6-18 4-3 8 0 6 3 2-3 6-5 9-2 5 5-1 12-9 17z"/></g>
+<g fill="#fff"><path class="tw" d="M40 50l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/><path class="tw" style="animation-delay:-1s" d="M180 40l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></g>
+<path d="M30 260c0-52 36-84 80-84s80 32 80 84z" fill="#c2456b"/>
+<path d="M80 176l30 84 30-84" stroke="#e8b04a" stroke-width="7" fill="none"/>
+<path d="M110 176l62 84h-36l-40-56z" fill="#e8b04a" opacity=".9"/>
+<rect x="98" y="148" width="24" height="34" fill="#e0a77c"/>
+<path d="M62 120c-6-50 22-70 48-70s54 20 48 70c-4 40-4 60-4 60h-88s0-20-4-60z" fill="#2a1c16"/>
+<circle cx="110" cy="116" r="42" fill="#e8b48a"/>
+<path d="M68 112c4-34 22-46 42-46s38 12 42 46c-10-20-26-30-42-30s-32 10-42 30z" fill="#2a1c16"/>
+<circle cx="110" cy="46" r="16" fill="#2a1c16"/>
+<g fill="#fff"><circle cx="94" cy="64" r="4"/><circle cx="104" cy="60" r="4"/><circle cx="116" cy="60" r="4"/><circle cx="126" cy="64" r="4"/><circle cx="110" cy="34" r="4"/></g>
+<g class="blink"><circle cx="96" cy="118" r="4.5" fill="#2a1c16"/><circle cx="124" cy="118" r="4.5" fill="#2a1c16"/></g>
+<circle cx="110" cy="98" r="3.5" fill="#d7263d"/>
+<path d="M97 133q13 13 26 0" stroke="#a3463c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<circle cx="84" cy="130" r="7" fill="#f08f8f" opacity=".55"/><circle cx="136" cy="130" r="7" fill="#f08f8f" opacity=".55"/>
+<circle cx="68" cy="130" r="4" fill="#e8b04a"/><circle cx="152" cy="130" r="4" fill="#e8b04a"/>
+<g class="wave"><path d="M160 214l20-34" stroke="#c2456b" stroke-width="18" stroke-linecap="round"/><circle cx="184" cy="172" r="11" fill="#e8b48a"/></g>
+</svg>
