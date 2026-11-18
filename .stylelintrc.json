@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "property-no-unknown": true,
+    "color-no-invalid-hex": true,
+    "unit-no-unknown": true,
+    "block-no-empty": true
+  }
+}
