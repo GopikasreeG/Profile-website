@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fde9df"/><stop offset="1" stop-color="#f6cfb8"/></linearGradient>
+<g id="f"><ellipse cx="0" cy="-26" rx="13" ry="22" fill="currentColor"/><ellipse cx="0" cy="-26" rx="13" ry="22" fill="currentColor" transform="rotate(60)"/><ellipse cx="0" cy="-26" rx="13" ry="22" fill="currentColor" transform="rotate(120)"/><ellipse cx="0" cy="-26" rx="13" ry="22" fill="currentColor" transform="rotate(180)"/><ellipse cx="0" cy="-26" rx="13" ry="22" fill="currentColor" transform="rotate(240)"/><ellipse cx="0" cy="-26" rx="13" ry="22" fill="currentColor" transform="rotate(300)"/><circle r="13" fill="#ffd45e"/></g>
+</defs>
+<style>.s{transform-origin:200px 380px;animation:s 4s ease-in-out infinite}.s2{animation-delay:-1.3s}.s3{animation-delay:-2.6s}@keyframes s{50%{transform:rotate(2.5deg)}}</style>
+<rect width="400" height="480" fill="url(#g)"/>
+<circle cx="320" cy="80" r="46" fill="#ffe6a8"/>
+<g class="s"><path d="M200 400C200 330 190 270 190 200" stroke="#5f8a4e" stroke-width="6" fill="none"/><use href="#f" x="190" y="170" color="#e86f8c"/>
+<ellipse cx="170" cy="300" rx="26" ry="10" fill="#6fa05b" transform="rotate(-30 170 300)"/></g>
+<g class="s s2"><path d="M170 400C150 340 120 300 110 250" stroke="#5f8a4e" stroke-width="6" fill="none"/><use href="#f" x="108" y="225" color="#a98be0" transform="scale(.85)" style="transform-origin:108px 225px"/></g>
+<g class="s s3"><path d="M235 400C255 340 285 300 295 240" stroke="#5f8a4e" stroke-width="6" fill="none"/><use href="#f" x="295" y="215" color="#ff9f5a"/>
+<ellipse cx="262" cy="320" rx="26" ry="10" fill="#6fa05b" transform="rotate(35 262 320)"/></g>
+<g class="s s2"><path d="M215 400C225 360 245 330 250 300" stroke="#5f8a4e" stroke-width="5" fill="none"/><use href="#f" x="250" y="285" color="#fff3f0" transform="scale(.6)" style="transform-origin:250px 285px"/></g>
+<path d="M120 380h160l-18 80h-124z" fill="#d9704a"/><rect x="112" y="368" width="176" height="20" rx="6" fill="#c25f3b"/>
+</svg>
