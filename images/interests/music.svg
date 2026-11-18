@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b2a63"/><stop offset="1" stop-color="#e0698d"/></linearGradient></defs>
+<style>
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 6s linear infinite}
+.bar{transform-box:fill-box;transform-origin:50% 100%;animation:bar .9s ease-in-out infinite}
+.n{animation:note 4s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes bar{0%,100%{transform:scaleY(.25)}50%{transform:scaleY(1)}}
+@keyframes note{0%{transform:translateY(20px);opacity:0}30%{opacity:1}100%{transform:translateY(-40px);opacity:0}}
+</style>
+<rect width="400" height="180" fill="url(#b)"/>
+<g class="spin"><circle cx="130" cy="92" r="70" fill="#17121f"/><circle cx="130" cy="92" r="56" fill="none" stroke="#2e2740" stroke-width="3"/><circle cx="130" cy="92" r="44" fill="none" stroke="#2e2740" stroke-width="3"/><circle cx="130" cy="92" r="22" fill="#f2b84b"/><circle cx="130" cy="92" r="4" fill="#17121f"/><path d="M130 22a70 70 0 0 1 40 14" stroke="#fff" stroke-opacity=".25" stroke-width="5" fill="none"/></g>
+<path d="M230 24l-46 66" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="232" cy="22" r="9" fill="#fff"/>
+<path d="M280 118a38 38 0 0 1 76 0" stroke="#fff" stroke-width="9" fill="none" stroke-linecap="round"/>
+<rect x="268" y="112" width="22" height="36" rx="9" fill="#f2b84b"/><rect x="346" y="112" width="22" height="36" rx="9" fill="#f2b84b"/>
+<g class="n" fill="#fff"><circle cx="300" cy="60" r="7"/><rect x="305" y="26" width="3" height="36"/></g>
+<g class="n" style="animation-delay:-2s" fill="#ffd6e4"><circle cx="340" cy="70" r="6"/><rect x="344" y="38" width="3" height="32"/></g>
+<g fill="#ffe28a"><rect class="bar" x="20" y="140" width="8" height="34" rx="3"/><rect class="bar" style="animation-delay:-.3s" x="34" y="140" width="8" height="34" rx="3"/><rect class="bar" style="animation-delay:-.6s" x="48" y="140" width="8" height="34" rx="3"/></g>
+</svg>

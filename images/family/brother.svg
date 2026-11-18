@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260">
+<style>
+.wave{transform-box:fill-box;transform-origin:10% 90%;animation:wave 1.6s ease-in-out infinite}
+.blink{transform-box:fill-box;transform-origin:center;animation:blink 4s infinite}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 2.4s ease-in-out infinite}
+.hr{animation:hr 5s ease-in infinite}
+@keyframes wave{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(16deg)}}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+@keyframes tw{50%{transform:scale(1.5);opacity:.5}}
+@keyframes hr{0%{transform:translateY(0);opacity:0}25%{opacity:.9}100%{transform:translateY(-70px);opacity:0}}
+</style>
+<circle cx="110" cy="130" r="104" fill="#ffe9cf"/>
+<g fill="#f28b4a"><path class="hr" d="M32 120c-8-6-12-14-6-18 4-3 8 0 6 3 2-3 6-5 9-2 5 5-1 12-9 17z"/><path class="hr" style="animation-delay:-2.5s" d="M188 112c-8-6-12-14-6-18 4-3 8 0 6 3 2-3 6-5 9-2 5 5-1 12-9 17z"/></g>
+<g fill="#fff"><path class="tw" d="M44 54l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/><path class="tw" style="animation-delay:-1.2s" d="M180 46l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></g>
+<path d="M30 260c0-52 36-84 80-84s80 32 80 84z" fill="#e8734a"/>
+<path d="M84 180c0 20 12 30 26 30s26-10 26-30" stroke="#c95a35" stroke-width="6" fill="none"/>
+<path d="M98 206v22M122 206v22" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<path d="M74 170c0-14 10-22 36-22s36 8 36 22" stroke="#3a4a6b" stroke-width="10" fill="none" stroke-linecap="round"/>
+<rect x="98" y="148" width="24" height="34" fill="#c78f66"/>
+<circle cx="110" cy="116" r="42" fill="#d9a174"/>
+<path d="M66 112c-2-36 18-56 44-56s46 20 44 56c-6-14-10-22-18-26l-10 8-8-12-10 12-10-10c-12 4-22 12-32 28z" fill="#1f1a17"/>
+<g class="blink"><circle cx="96" cy="118" r="4.5" fill="#1f1a17"/><circle cx="124" cy="118" r="4.5" fill="#1f1a17"/></g>
+<path d="M88 108q8-5 16 0M116 108q8-5 16 0" stroke="#1f1a17" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M94 134q16 16 32 0z" fill="#fff" stroke="#8c3b32" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="82" cy="130" r="6" fill="#f08f8f" opacity=".5"/><circle cx="138" cy="130" r="6" fill="#f08f8f" opacity=".5"/>
+<g class="wave"><path d="M160 214l20-34" stroke="#e8734a" stroke-width="18" stroke-linecap="round"/><circle cx="184" cy="172" r="11" fill="#d9a174"/></g>
+</svg>
