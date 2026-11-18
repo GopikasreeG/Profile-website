@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6b4fa0"/><stop offset=".55" stop-color="#f59e8a"/><stop offset="1" stop-color="#ffd9a8"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e8bc0"/><stop offset="1" stop-color="#14527a"/></linearGradient>
+</defs>
+<style>
+.pl{animation:fly 9s linear infinite}.w{animation:wave 4s ease-in-out infinite}.w2{animation-delay:-2s}.sun{animation:glow 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.boat{animation:bob 3s ease-in-out infinite}.palm{transform-origin:400px 230px;animation:sway 5s ease-in-out infinite}
+@keyframes fly{from{transform:translate(-60px,40px)}to{transform:translate(540px,0)}}
+@keyframes wave{50%{transform:translateX(-24px)}}@keyframes glow{50%{transform:scale(1.08)}}@keyframes bob{50%{transform:translateY(-5px) rotate(2deg)}}@keyframes sway{50%{transform:rotate(2deg)}}
+</style>
+<rect width="480" height="300" fill="url(#sky)"/>
+<circle class="sun" cx="250" cy="150" r="46" fill="#ffe08a"/>
+<rect y="170" width="480" height="90" fill="url(#sea)"/>
+<g stroke="#fff" stroke-opacity=".55" stroke-width="3" fill="none" stroke-linecap="round"><path class="w" d="M180 190q15-8 30 0t30 0t30 0"/><path class="w w2" d="M230 210q15-8 30 0t30 0t30 0"/><path class="w" d="M90 222q15-8 30 0t30 0"/></g>
+<path d="M0 120c40-10 80 6 110 40v70H0z" fill="#8a5a3b"/><path d="M0 120c40-10 80 6 110 40l-20 6c-30-26-60-34-90-28z" fill="#5f9a4a"/>
+<g class="boat"><path d="M300 200h50l-8 12h-34z" fill="#fff"/><path d="M325 150v50M325 152l24 40h-24z" stroke="#fff" stroke-width="2" fill="#fff"/></g>
+<path d="M0 252c120-14 240-14 480 0v48H0z" fill="#f1d9a5"/>
+<g class="palm"><path d="M400 250c-4-40-2-70 12-100" stroke="#7a5230" stroke-width="9" fill="none" stroke-linecap="round"/><g fill="#3f8a4a"><path d="M412 150c-30-20-60-14-80 6 30-6 52 0 80-6z"/><path d="M412 150c30-20 56-10 72 10-28-8-50-6-72-10z"/><path d="M412 150c-10-30 6-52 30-60-10 22-14 40-30 60z"/><path d="M412 150c-24-18-40-44-34-64 14 22 28 40 34 64z"/></g></g>
+<g transform="translate(120 252)"><rect x="-16" y="-34" width="32" height="40" rx="8" fill="#d9704a"/><rect x="-11" y="-20" width="22" height="14" rx="3" fill="#b95d2d"/><path d="M-10-34v-6h20v6" stroke="#8c4528" stroke-width="3" fill="none"/></g>
+<g class="pl"><path d="M0 0l28 6-28 6 6-6z" fill="#fff"/><path d="M8 6l-8-14h6l12 14z" fill="#fff"/></g>
+</svg>
