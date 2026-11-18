@@ -1,0 +1,46 @@
+/* THE ONE THEME FILE. Change values here and the whole site changes. */
+/* Light theme: warm stone and ink, inspired by the personal-brand layout */
+:root {
+  /* Primary Colors */
+  --color-primary: #26211d;
+  --color-primary-light: #4a403a;
+  --color-primary-dark: #14110f;
+
+  /* Background Colors */
+  --color-bg: #efe6da;
+  --color-bg-secondary: #f7f1e9;
+  --color-bg-card: #fffdfa;
+
+  /* Text Colors */
+  --color-text: #26211d;
+  --color-text-secondary: #6b5f56;
+  --color-text-inverse: #fffdfa;
+
+  /* Accent & Borders */
+  --color-accent: #a07850;
+  --color-accent-soft: #e6d5bf;
+  --color-border: #d9cdbf;
+  --color-shadow: rgba(38, 33, 29, 0.12);
+  --color-overlay: rgba(20, 17, 15, 0.6);
+
+  /* Typography */
+  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-heading: 'Georgia', 'Times New Roman', serif;
+  --font-script: 'Segoe Script', 'Snell Roundhand', 'Brush Script MT', cursive;
+  --font-size-base: 16px;
+  --font-size-h1: clamp(2.6rem, 6vw, 4.6rem);
+  --font-size-h2: clamp(2rem, 4vw, 2.8rem);
+
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Layout */
+  --max-width: 1200px;
+  --border-radius: 10px;
+  --border-radius-lg: 28px;
+  --border-radius-arch: 999px 999px 10px 10px;
+  --transition-speed: 0.3s;
+}
