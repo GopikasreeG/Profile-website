@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f2a44"/><stop offset="1" stop-color="#8a3f62"/></linearGradient></defs>
+<style>
+.clap{transform-origin:112px 78px;animation:clap 2.6s ease-in-out infinite}
+.h{animation:rise 4s ease-in infinite}
+.beam{animation:flick 3s ease-in-out infinite}
+@keyframes clap{0%,60%,100%{transform:rotate(-24deg)}70%{transform:rotate(0)}}
+@keyframes rise{0%{transform:translateY(30px);opacity:0}30%{opacity:.9}100%{transform:translateY(-50px);opacity:0}}
+@keyframes flick{50%{opacity:.5}}
+</style>
+<rect width="400" height="180" fill="url(#b)"/>
+<polygon class="beam" points="200,0 120,180 300,180" fill="#fff" opacity=".12"/>
+<rect x="112" y="78" width="120" height="76" rx="6" fill="#16192b"/>
+<g fill="#fff" opacity=".85"><rect x="124" y="104" width="60" height="5" rx="2"/><rect x="124" y="118" width="90" height="5" rx="2"/><rect x="124" y="132" width="44" height="5" rx="2"/></g>
+<g class="clap"><rect x="112" y="58" width="120" height="20" rx="4" fill="#16192b"/><g fill="#fff"><polygon points="124,58 142,58 134,78 116,78"/><polygon points="160,58 178,58 170,78 152,78"/><polygon points="196,58 214,58 206,78 188,78"/></g></g>
+<path d="M268 92h64l-9 70h-46z" fill="#fff"/><path d="M276 92l5 70h-7zM294 92l2 70h-8zM312 92l-2 70h-8z" fill="#e0453f"/>
+<g fill="#fff3c9"><circle cx="278" cy="88" r="12"/><circle cx="296" cy="80" r="14"/><circle cx="314" cy="88" r="12"/><circle cx="304" cy="96" r="10"/></g>
+<g fill="#ff8fb0"><path class="h" d="M60 130c-10-8-16-18-8-24 5-4 10 0 8 4 2-4 8-6 12-2 6 6-2 16-12 22z"/><path class="h" style="animation-delay:-1.8s" d="M360 60c-8-6-12-14-6-18 4-3 8 0 6 3 2-3 6-5 9-2 5 5-1 12-9 17z"/></g>
+<rect y="168" width="400" height="12" fill="#0e1020"/><g fill="#5b5f7d"><rect x="8" y="171" width="10" height="6"/><rect x="38" y="171" width="10" height="6"/><rect x="68" y="171" width="10" height="6"/><rect x="98" y="171" width="10" height="6"/><rect x="128" y="171" width="10" height="6"/><rect x="158" y="171" width="10" height="6"/><rect x="188" y="171" width="10" height="6"/><rect x="218" y="171" width="10" height="6"/><rect x="248" y="171" width="10" height="6"/><rect x="278" y="171" width="10" height="6"/><rect x="308" y="171" width="10" height="6"/><rect x="338" y="171" width="10" height="6"/><rect x="368" y="171" width="10" height="6"/></g>
+</svg>
