@@ -118,6 +118,9 @@ section { padding: var(--spacing-xl) 0; }
 .card-body p { color: var(--color-text-secondary); margin-bottom: var(--spacing-sm); }
 
 /* Family: warm sub-palette scoped to this section, derived from theme variables */
+#family { position: relative; overflow: hidden; }
+#family .container { position: relative; z-index: 1; }
+#family .petal { opacity: 0.55; }
 #family { --color-bg-card: color-mix(in srgb, var(--color-accent) 14%, var(--color-bg-secondary)); --color-accent: color-mix(in srgb, var(--color-accent) 75%, var(--color-primary)); }
 .family-banner { position: relative; overflow: hidden; height: 200px; margin-bottom: var(--spacing-xl); display: grid; place-items: center; padding: var(--spacing-md); text-align: center; border-radius: var(--border-radius-lg); border: 1px solid var(--color-border); background: linear-gradient(120deg, var(--color-bg-card), var(--color-accent-soft)); font-family: var(--font-heading); font-size: 1.5rem; font-style: italic; }
 .heart { position: absolute; bottom: -2rem; animation: rise-heart 6s ease-in infinite; opacity: 0; }
@@ -127,10 +130,11 @@ section { padding: var(--spacing-xl) 0; }
 .flip:hover .flip-inner, .flip.flipped .flip-inner { transform: rotateY(180deg); }
 .face { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--spacing-sm); padding: var(--spacing-lg); border: 1px solid var(--color-border); border-radius: var(--border-radius-arch); background: var(--color-bg-card); backface-visibility: hidden; box-shadow: 0 10px 24px var(--color-shadow); }
 .face.back { transform: rotateY(180deg); border-radius: var(--border-radius-lg); background: var(--color-primary); color: var(--color-text-inverse); }
-.face .portrait { width: 150px; height: 150px; animation: float 4s ease-in-out infinite; }
-.face .emoji { font-size: 4.5rem; animation: float 4s ease-in-out infinite; }
-.face .rel { font-family: var(--font-heading); font-size: 1.5rem; }
-.face .hint { font-size: 0.8rem; color: var(--color-accent); }
+.face .rel { font-family: var(--font-heading); font-size: 2rem; line-height: 1.2; }
+.face .divider { display: block; width: 3.5rem; height: 2px; margin: var(--spacing-sm) 0; background: var(--color-accent); }
+.face .job { color: var(--color-text-secondary); font-size: 1.05rem; }
+.face .hint { margin-top: var(--spacing-md); font-size: 0.8rem; color: var(--color-accent); }
+
 
 /* Hobbies gallery */
 .masonry { columns: 3; column-gap: var(--spacing-lg); }
